@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'rocks.gravili'
+group = 'rocks.gravili.notquestsapiexample'
 version = '1.0'
 
 repositories {
@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     compileOnly 'io.papermc.paper:paper-api:1.18.1-R0.1-SNAPSHOT'
-    compileOnly files('libs/notquests-4.10.0.jar')
+    compileOnly files('libs/notquests-4.10.1.jar')
 }
 
 def targetJavaVersion = 17
