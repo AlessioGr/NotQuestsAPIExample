@@ -1,0 +1,7 @@
+name: NotQuestsAPIExample
+version: '${version}'
+main: rocks.gravili.notquestsapiexample.NotQuestsAPIExample
+api-version: 1.18
+authors: [ AlessioGr ]
+depend:
+  - NotQuests
