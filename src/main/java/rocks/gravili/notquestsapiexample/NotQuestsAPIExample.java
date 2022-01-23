@@ -11,8 +11,10 @@ public final class NotQuestsAPIExample extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         notQuestsInstance = NotQuests.getInstance();
-        notQuestsInstance.getVariablesManager().registerVariable("FoodLevel", FoodLevelVariable.class);
-        notQuestsInstance.getObjectiveManager().registerObjective("TakeDamage", TakeDamageObjective.class);
+        if(notQuestsInstance != null) { //For Spigot compatibility
+            notQuestsInstance.getVariablesManager().registerVariable("FoodLevel", FoodLevelVariable.class);
+            notQuestsInstance.getObjectiveManager().registerObjective("TakeDamage", TakeDamageObjective.class);
+        }
     }
 
     @Override
