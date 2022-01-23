@@ -21,8 +21,8 @@ public class FoodLevelVariable extends Variable<Integer> {
     }
 
     @Override
-    public boolean setValueInternally(Integer integer, Player player, Object... objects) {
-        player.setFoodLevel(integer);
+    public boolean setValueInternally(Integer newValue, Player player, Object... objects) {
+        player.setFoodLevel(newValue);
         return true;
     }
 

@@ -20,22 +20,22 @@ public class TakeDamageObjective extends Objective {
     }
 
     @Override
-    public void save(FileConfiguration fileConfiguration, String s) {
+    public void save(FileConfiguration fileConfiguration, String initialPath) {
 
     }
 
     @Override
-    public void load(FileConfiguration fileConfiguration, String s) {
+    public void load(FileConfiguration fileConfiguration, String initialPath) {
 
     }
 
     @Override
-    public void onObjectiveUnlock(ActiveObjective activeObjective, boolean b) {
+    public void onObjectiveUnlock(ActiveObjective activeObjective, boolean unlockedDuringPluginStartupQuestLoadingProcess) {
 
     }
 
     @Override
-    public void onObjectiveCompleteOrLock(ActiveObjective activeObjective, boolean b, boolean b1) {
+    public void onObjectiveCompleteOrLock(ActiveObjective activeObjective, boolean lockedOrCompletedDuringPluginStartupQuestLoadingProcess, boolean completed) {
 
     }
 }
