@@ -5,7 +5,7 @@ import rocks.gravili.notquests.paper.NotQuests;
 
 public final class NotQuestsAPIExample extends JavaPlugin {
 
-    NotQuests notQuestsInstance;
+    private NotQuests notQuestsInstance;
 
     @Override
     public void onEnable() {
